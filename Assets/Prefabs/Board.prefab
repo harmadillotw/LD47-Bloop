@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9112895193701647539
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9112895193701647537}
+  - component: {fileID: 9112895193701647538}
+  m_Layer: 0
+  m_Name: Board
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9112895193701647537
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9112895193701647539}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9112895193701647538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9112895193701647539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c48dbe60f8d7b3943af9501b7d7569d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SquarePrefab: {fileID: 7024140649146190168, guid: f5367456d3f50014a8eefd516c96cf9e,
+    type: 3}
+  MeepPrefab: {fileID: 5995580254599648317, guid: d5c651dca8cbb9f4396176a109b55d01,
+    type: 3}
+  BorderPrefab: {fileID: 4151888106956947035, guid: 0cc1c5f928d25c948ad665eb07ca5460,
+    type: 3}
+  BorderSmallPrefab: {fileID: 6209420631004456360, guid: 97656acf9a492924792aa3142f4c8e83,
+    type: 3}
+  BoardWhite: {fileID: 2100000, guid: 45c9cc71597e48449a7712a1ad8b2a64, type: 2}
+  BoardBrown: {fileID: 2100000, guid: bfaa84080fb7ace46baabd38e1f9b7aa, type: 2}

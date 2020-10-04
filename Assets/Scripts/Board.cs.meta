@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: c48dbe60f8d7b3943af9501b7d7569d3
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - SquarePrefab: {fileID: 7024140649146190168, guid: f5367456d3f50014a8eefd516c96cf9e,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
